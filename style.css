@@ -32,4 +32,6 @@ p {
     display: none !important;
 }
 
-
+.supraAdd {
+    text-align: above;
+}

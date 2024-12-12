@@ -4,7 +4,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs tei"
     version="2.0">
-    
+
     <!-- <xsl:output method="xml" omit-xml-declaration="yes" indent="yes" /> -->
     <xsl:template match="tei:teiHeader"/>
 
@@ -70,8 +70,34 @@
         </span>
     </xsl:template>
     
-    
     <!-- add additional templates below, for example to transform the tei:lb in <br/> empty elements, tei:hi[@rend = 'sup'] in <sup> elements, the underlined text, additions with the attribute "overwritten" etc. -->
 
-    
-</xsl:stylesheet>
+    <!-- transform lb to br/-->
+    <!-- OK-->
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+
+
+    <!-- transform tei:hi[@rend = 'sup'] in <sup> elements-->
+    <!-- OK-->
+    <xsl:template match="tei:hi[@rend = 'sup']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:stylesheet>
+
+    <!-- rend text black-->
+    <!-- OK-->
+    <xsl:template match="tei:emph[@rend='blackink']">
+        <span style="color:black">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- rend text underlined-->
+    <xsl:template match="tei:hi[@rend = 'u']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:stylesheet>
