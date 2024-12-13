@@ -31,6 +31,7 @@
                 </xsl:choose>
             </xsl:for-each> 
         </div>
+       
         <div class="col-9">
             <div class="transcription">
                 <xsl:apply-templates select="//tei:div"/>
@@ -64,6 +65,7 @@
     </xsl:template>
     
     <!-- all the supralinear additions are given in a span with the class supraAdd, make sure to put this class in superscript in the CSS file, -->
+    <!-- NOT OK-->
     <xsl:template match="tei:add[@place = 'supralinear']">
         <span class="supraAdd">
             <xsl:apply-templates/>
@@ -85,19 +87,29 @@
         <sup>
             <xsl:apply-templates/>
         </sup>
-    </xsl:stylesheet>
+    </xsl:template>
 
-    <!-- rend text black-->
+    <!-- rend text underlined-->
     <!-- OK-->
-    <xsl:template match="tei:emph[@rend='blackink']">
-        <span style="color:black">
+    <xsl:template match="tei:hi[@rend = 'u']">
+        <span class="underlined">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
-    <!-- rend text underlined-->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <u>
+    <!-- rend text overwritten-->
+    <!-- NOT OK-->
+    <xsl:template match="tei:add[@place='overwritten']">
+        <span class="overwritten">
+            <xsl:apply-templates />
+        </span>
+    </xsl:template>
+
+
+    <!-- rend page number circled-->
+    <!-- OK-->
+    <xsl:template match="tei:hi[@rend='circled']">
+        <span class="circled">
             <xsl:apply-templates/>
-        </u>
-    </xsl:stylesheet>
+        </span>
+    </xsl:template>

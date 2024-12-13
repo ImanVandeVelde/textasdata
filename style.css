@@ -8,6 +8,7 @@ body {
 
 img {
     max-width: 100%;
+    float: right;
 }
 
 p {
@@ -32,6 +33,30 @@ p {
     display: none !important;
 }
 
+.underlined {
+    text-decoration: underline;
+}
+
+.overwritten {
+    position: relative; 
+    top: 0;
+    left: 0;
+    display: run-in;
+}
+
+.circled {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em; 
+    font-size: 1em;
+    color: black;
+    background-color: white;
+}
+
 .supraAdd {
-    text-align: above;
+    vertical-align: super;
 }
