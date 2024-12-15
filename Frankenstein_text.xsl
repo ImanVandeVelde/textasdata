@@ -97,14 +97,6 @@
         </span>
     </xsl:template>
 
-    <!-- rend text overwritten-->
-    <!-- NOT OK-->
-    <xsl:template match="tei:add[@place='overwritten']">
-        <span class="overwritten">
-            <xsl:apply-templates />
-        </span>
-    </xsl:template>
-
 
     <!-- rend page number circled-->
     <!-- OK-->

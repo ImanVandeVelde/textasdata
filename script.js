@@ -105,11 +105,11 @@ function documentLoader() {
   var PercyArray = Array.from(visible_percy);
     if (event.target.value == 'both') {
     MaryArray.forEach ((element) => {
-      element.style.color = 'green';
+      element.style.color = 'black';
     });
 
     PercyArray.forEach ((element) => {
-      element.style.color = 'green';
+      element.style.color = 'black';
     }); 
 
     } else if (event.target.value == 'Mary') {
@@ -121,13 +121,21 @@ function documentLoader() {
       });
     } else {
       PercyArray.forEach((element) => {
-        element.style.color = 'yellow'; // Highlight Percy's work
+        element.style.color = 'yellow';
       });
       MaryArray.forEach((element) => {
-        element.style.color = 'black'; // Set Mary's work to black
+        element.style.color = 'black';
       });
     }
   }
 
 // write another function that will toggle the display of the deletions by clicking on a button
+// OK, but have to click twice on button
+function toggleDeletions() {
+  const deletions = document.querySelectorAll('del'); // Select all <del> elements
+  deletions.forEach(del => {
+    del.style.display = del.style.display === 'none' ? 'inline' : 'none'; // Toggle display
+  });
+}
+
 // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
