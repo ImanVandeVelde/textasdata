@@ -1,5 +1,5 @@
 body {
-
+ position: relative;
 }
 
 .starter-template {
@@ -53,6 +53,17 @@ p {
 /*underline*/
 .underlined {
     text-decoration: underline;
+}
+
+/*greyink: might be useful when one text without deletions in red*/
+.greyink {
+  color:gray;
+}
+
+/*sublinear*/
+/*DOESN'T WORK*/
+.sublinear {
+  vertical-align: sub;
 }
 
 /*circle*/

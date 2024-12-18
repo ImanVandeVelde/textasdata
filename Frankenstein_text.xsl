@@ -105,3 +105,18 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
+    <!-- rend text sublinear-->
+    <!-- NOT OK-->
+    <xsl:template match="tei:hi[@rend = 'sub']">
+        <span class="sublinear">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- rend text grey-->
+    <xsl:template match="tei:hi[@rend = 'greyink']">
+        <span class="greyink">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>

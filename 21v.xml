@@ -36,29 +36,31 @@
             <metamark function="pagenumber"><num><hi rend="circled">76</hi></num></metamark>
             <p>his shrivelled complexion and strait<lb/>
                 black lips.<lb/></p> 
-            <p style="text-indent:20px">The different accidents of life are<lb/>
+            <p>The different accidents of life are<lb/>
                 not so changeable at the feelings of hu<lb/>
                 man nature. I had worked hard for<lb/>
                 nearly two years for the sole purpose<lb/>
                 of infusing <del type="crossedOut" hand="#MWS" rend="blackink">f</del> into an inanimate<lb/>
                 body. For this I had deprived myself of<lb/>
                 rest and <del type="crossedOut" hand="#MWS" rend="blackink">heath</del> health. I had desired<lb/>
-                it with an ardour that far exceeded<lb/>
+                it with an ardour that far exceed<add place="intralinear" hand="#PBS" rend="blackink">ed</add><lb/>
                 moderation; but now that I had succeed<lb/>
                 ed these dreams vanished and breathless<lb/>
                 horror and disgust filled my heart.<lb/> 
-                Unable<add place="supralinear" hand="#MWS" rend="blackink">to endure</add> the aspect of the <del type="crossedOut" hand="#MWS" rend="blackink">creature</del><add place="margintop" hand="#MWS" rend="blackink">being</add> I<lb/>
+                Unable<add place="sublinear"><metamark function="insert">^</metamark></add> <add place="supralinear" hand="#MWS" rend="blackink">to endure</add> the aspect of the <del type="crossedOut" hand="#MWS" rend="blackink">creature</del><add place="superlinear" hand="#PBS" rend="blackink">being</add> I<lb/>
                 had created, I rushed out of the room and<lb/>
-                <del type="crossedOut" hand="#MWS" rend="blackink">remained</del><add place="supralinear" hand="#MWS" rend="blackink">continued</add> a long time traversing my<lb/>
+                <del type="crossedOut" hand="#MWS" rend="blackink">remained</del><add place="superlinear" hand="#PBS" rend="blackink">continued</add> a long time traversing my<lb/>
                 bed chamber unable to compose my<lb/>
-                mind to sleep. At length <del type="crossedOut" hand="#MWS" rend="blackink">s</del> I assitude<lb/>
+                mind to sleep. At length <del type="overwritten" hand="#MWS" rend="blackink"><unclear>s</unclear></del> <add place="intralinear">l</add>assitude<lb/>
                 succeeded to the tumult I had before<lb/>
                 endured, and I threw myself on my<lb/>
                 bed in my clothes endeavouring to seek<lb/>
                 a <del type="crossedOut" hand="#MWS" rend="blackink">feew</del> few moments of forgetfullness.<lb/> 
-               But it was in vain; I slept indeed but<lb/>
-                I was disturbed by the wildest dreams-<lb/>
-                I saw Elizabeth<add place="supralinear" hand="#MWS" rend="blackink">in the bloom of health</add> walking in the streets of<lb/>
+            </p>
+            <p>
+                But it was in vain; I slept indeed but<lb/>
+                <damage type="inkblot">I</damage> was disturbed by the wildest dreams-<lb/>
+                I saw Elizabeth <add place="sublinear"><metamark function="insert">^</metamark></add><add place="supralinear" hand="#MWS" rend="blackink">in the bloom of health</add> walking in the streets of<lb/>
                 Ingolstadt; delighted &amp; surprised I embraced<lb/>
                 her but as I imprinted the first kiss<lb/>
                 on her lips they became lurid with<lb/>

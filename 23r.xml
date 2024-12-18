@@ -38,7 +38,9 @@
             <metamark function="pagenumber"><num><hi rend="circled">79</hi></num></metamark>
             <p>
                my view. I did not dare <del type="crossedOut" hand="#MWS" rend="blackink">to</del> return<lb/>
-               to the appartment <add place="supralinear" hand="#MWS" rend="blackink">which</add> I inhabited but<lb/>
+               to the appartment 
+               <add place="sublinear" hand="#MWS" rend="blackink"><metamark function="insert">^</metamark></add>
+               <add place="supralinear" hand="#MWS" rend="blackink">which</add> I inhabited but<lb/>
                felt impelled to hurry on although<lb/>
                wetted by the <del type="crossedOut" hand="#MWS" rend="blackink">drizzling</del> rain which poured<lb/>
                from a black and comfortless sky.<lb/>
@@ -50,29 +52,33 @@
                upon my mind. I traversed the streets<lb/>
                without any clear conception of where<lb/>
                I was or what I was doing: my heart<lb/>
-               palpitated <del type="crossedOut" hand="#PBS" rend="blackink">with</del><add place="supralinear" hand="#PBS" rend="blackink">in the sickness of</add> fear and I hurried<lb/>
+               palpitated <del type="crossedOut" hand="#PBS" rend="blackink">with</del>
+               <add place="sublinear" hand="#PBS" rend="blackink"><metamark function="insert">^</metamark></add>
+               <add place="supralinear" hand="#PBS" rend="blackink">in the sickness of</add> fear and I hurried<lb/>
                on with irregular steps not daring<lb/>
                to look about me,<lb/>
             </p>
-            <list><item>"Like one who on a lon<del type="crossedOut" hand="#MWS" rend="blackink">s</del>esome road</item>
-            <item>"and having once turned round</item>
-               <item rend="right"><add place="supralinear" hand="#MWS" rend="blackink">walks on</add></item>
-               <item><del type="crossedOut" hand="#MWS" rend="blackink">wal</del>And turns no more his head</item>
-            <item>Because he knows a frightful</item>
-            <item rend="right">fiend</item>
-               <item>"doth close behind hum tread."*<add place="marginleft" hand="#MS" rend="blackink">*Coleridge's<lb/>"Ancient Mariner.'</add></item></list>
+            <p>
+               "Like one who on a lon<del type="overwritten" hand="#MWS" rend="blackink">s</del><add place="intralinear">es</add>ome road<lb/>
+               "doth walk in fear and dread"<lb/>
+               "and having once turned round<metamark>L</metamark><add place="supralinear" hand="#MWS" rend="blackink">walks on</add><lb/>
+               "<del type="crossedOut" hand="#MWS" rend="blackink">wal</del>And turns no more his head<lb/>
+               "Because he knows a frightful<metamark>L</metamark>fiend<lb/>
+               "doth close behind him tread."*<lb/><add place="marginleft" hand="#MWS" rend="blackink">*Coleridge's<lb/>"Ancient Mariner.'</add>
+            </p>
             <p>
                Continueing thus, I came at lenght<lb/>
-               <del type="crossedOut" hand="#PBS" rend="blackink">opposite</del><add place="supralinear" hand="#MWS" rend="blackink">opposite to</add> the Inn at which the dili<lb/>
+               <del type="crossedOut" hand="#PBS" rend="blackink">opposite</del><add place="supralinear" hand="#PBS" rend="blackink">opposite to</add> the Inn at which the dili<lb/>
                -gences and carriages usually stopped. Here<lb/>
                I paused I knew not why but remained<lb/>
                some minutes with my eyes fixed on<lb/>
                a coach that was coming towards me<lb/>
                from the other end of the street.<lb/>
-               As <del type="crossedOut" hand="#MWS" rend="blackink">I</del><add place="supralinear" hand="#MWS" rend="blackink">it</add> drew nearer I observed that it<lb/>
+               As <del type="crossedOut" hand="#MWS" rend="blackink">I</del>
+               <add place="sublinear" hand="#MWS" rend="blackink"><metamark function="insert">^</metamark></add>
+               <add place="supralinear" hand="#MWS" rend="blackink">it</add> drew nearer I observed that it<lb/>
                was the Swiss diligence; it stopped<lb/>
                just where I was standing, and on<lb/>
-               
             </p>
          </div>
       </body>
