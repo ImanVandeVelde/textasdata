@@ -130,12 +130,46 @@ function documentLoader() {
   }
 
 // write another function that will toggle the display of the deletions by clicking on a button
-// OK, but have to click twice on button
 function toggleDeletions() {
   const deletions = document.querySelectorAll('del'); // Select all <del> elements
   deletions.forEach(del => {
-    del.style.display = del.style.display === 'none' ? 'inline' : 'none'; // Toggle display
+    del.style.display = del.style.display === 'inline' ? 'none' : 'inline'; // Toggle display
   });
 }
 
 // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
+
+let showReadingText = false;
+
+  function toggleReading() {
+    
+    var margin = document.getElementsByClassName('marginAdd');
+    var marginArray = Array.from(margin)
+
+    var supra = document.getElementsByClassName('supraAdd');
+    var supraArray = Array.from(supra);
+
+    if (showReadingText) {
+      supraArray.forEach((element) => {
+        element.style.removeProperty('vertical-align');
+      });
+
+    marginArray.forEach((element) => {
+        element.style.removeProperty('position');
+        element.style.removeProperty('left');
+        element.style.removeProperty('display')
+      });
+
+    } else {
+      supraArray.forEach((element) => {
+        element.style.verticalAlign = 'baseline';
+      }); 
+
+      marginArray.forEach((element) => {
+        element.style.position = 'static';
+        element.style.left = '0px';
+        element.style.display = 'inline';
+      });
+    }
+    showReadingText = !showReadingText;
+  }

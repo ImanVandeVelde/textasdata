@@ -25,7 +25,7 @@
                             <xsl:attribute name="class">
                                 <xsl:value-of select="attribute::hand" />
                             </xsl:attribute>
-                        <xsl:value-of select="."/><br/>
+                        <xsl:apply-templates/><br/>
                         </span>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -97,6 +97,14 @@
         </span>
     </xsl:template>
 
+    <!-- double underlined-->
+    <!-- OK-->
+    <xsl:template match="tei:hi[@rend = 'double-underline']">
+        <span class="double-underline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
 
     <!-- rend page number circled-->
     <!-- OK-->
@@ -107,8 +115,8 @@
     </xsl:template>
 
     <!-- rend text sublinear-->
-    <!-- NOT OK-->
-    <xsl:template match="tei:hi[@rend = 'sub']">
+    <!-- OK-->
+    <xsl:template match="tei:add[@place = 'sublinear']">
         <span class="sublinear">
             <xsl:apply-templates/>
         </span>
@@ -117,6 +125,30 @@
     <!-- rend text grey-->
     <xsl:template match="tei:hi[@rend = 'greyink']">
         <span class="greyink">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- indented paragraph-->
+    <!-- OK-->
+    <xsl:template match="tei:p[@type = 'quote']">
+        <div class="quote">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <!-- L border-->
+    <!-- OK-->
+    <xsl:template match="tei:metamark[@type = 'addition']">
+        <span class="addition">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- overwritten text as grey-->
+    <!-- OK-->
+    <xsl:template match="tei:del[@type= 'overwritten']">
+        <span class="overwritten">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
