@@ -114,14 +114,12 @@
         Oh! no mortal could support <lb/>
         the horror of that countenance. A<lb/>
         mummy <add place="sublinear" hand="#MWS" rend="blackink">^</add>
-        <!--<metamark>&#8257;</metamark>-->
         <add place="supralinear" hand="#MWS" rend="blackink">again</add>
         endued with 
         <del type="crossedOut" hand="#MWS" rend="blackink">life</del>
         <add place="supralinear" hand="#PBS" rend="blackink">animation</add> 
           could not be<lb/>
       </p>
-      <!--<add place="marginleft" hand="#PBS" rend="blackink">during</add>-->
       </div>
     </body>
   </text>

@@ -137,6 +137,7 @@ function toggleDeletions() {
   });
 }
 
+
 // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
 
 let showReadingText = false;
@@ -149,15 +150,26 @@ let showReadingText = false;
     var supra = document.getElementsByClassName('supraAdd');
     var supraArray = Array.from(supra);
 
+    var over = document.getElementsByClassName('overwritten');
+    var overArray = Array.from(over);
+
+
     if (showReadingText) {
       supraArray.forEach((element) => {
         element.style.removeProperty('vertical-align');
       });
 
-    marginArray.forEach((element) => {
+      marginArray.forEach((element) => {
         element.style.removeProperty('position');
         element.style.removeProperty('left');
         element.style.removeProperty('display')
+      });
+
+      overArray.forEach((element) => {
+        element.style.removeProperty('color');
+        element.style.removeProperty('font-weight');
+        element.style.removeProperty('text-decoration');
+        element.style.removeProperty('vertical-align');
       });
 
     } else {
@@ -169,6 +181,10 @@ let showReadingText = false;
         element.style.position = 'static';
         element.style.left = '0px';
         element.style.display = 'inline';
+      });
+
+      overArray.forEach((element) => {
+        element.style.display = 'none';
       });
     }
     showReadingText = !showReadingText;

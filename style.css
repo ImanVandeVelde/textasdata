@@ -92,11 +92,20 @@ p {
     vertical-align: super;
 }
 
-/*overwritten in green*/
+/*overwritten in grey*/
 .overwritten {
   color: grey;
   font-weight: bold;
+  text-decoration: line-through;
+  vertical-align: baseline ;
 }
+
+.crossedout {
+  color: red;
+  text-decoration: line-through;
+  vertical-align: super;
+}
+
 
 /*index*/
 #titlepagecontainer {

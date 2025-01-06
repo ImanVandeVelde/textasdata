@@ -148,7 +148,14 @@
     <!-- overwritten text as grey-->
     <!-- OK-->
     <xsl:template match="tei:del[@type= 'overwritten']">
-        <span class="overwritten">
+        <del class="overwritten">
             <xsl:apply-templates/>
-        </span>
+        </del>
+    </xsl:template>
+
+
+    <xsl:template match="tei:del[@type= 'crossedOut']">
+        <del class="crossedout">
+            <xsl:apply-templates/>
+        </del>
     </xsl:template>
