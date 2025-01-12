@@ -153,7 +153,8 @@
         </del>
     </xsl:template>
 
-
+    <!-- crossed out text as red-->
+    <!-- OK-->
     <xsl:template match="tei:del[@type= 'crossedOut']">
         <del class="crossedout">
             <xsl:apply-templates/>

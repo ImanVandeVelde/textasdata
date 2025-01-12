@@ -13,9 +13,9 @@
                          <div class="col">
                              <h4>About the manuscript page:</h4>
                              <xsl:value-of select="//tei:sourceDesc"/>
-                             <xsl:value-of select="//tei:licence"/> <!-- You can change the way the metadata is visualised as well-->
+                             <xsl:value-of select="//tei:licence"/>
                          </div>
-                         <div class="col">
+                         <div class="col"> 
                             <ul> 
                                 <li>Total number of modifications: 
                                     <xsl:value-of select="count(//tei:del|//tei:add)" />
