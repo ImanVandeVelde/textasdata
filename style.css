@@ -119,15 +119,15 @@ p {
   margin-bottom: 20px;
 }
 #titlepagetext {
-  flex: 1; /* Text takes up equal space */
-  margin-right: 10px; /* Space between text and image */
+  flex: 1; 
+  margin-right: 10px;
 }
 #titlepageimage {
-  flex: 1; /* Image takes up equal space */
-  text-align: center; /* Center the image */
+  flex: 1; 
+  text-align: center; 
 }
 #titlepageimage img {
-  max-width: 100%; /* Ensure images scale within their container */
+  max-width: 100%;
   height: auto;
 }
 
