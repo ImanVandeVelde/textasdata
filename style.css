@@ -1,5 +1,4 @@
 body {
-
 }
 
 .starter-template {
@@ -100,6 +99,7 @@ p {
   vertical-align: baseline ;
 }
 
+/*crossedout text in red*/
 .crossedout {
   color: red;
   text-decoration: line-through;
