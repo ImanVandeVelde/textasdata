@@ -18,7 +18,7 @@
                          <div class="col">
                             <ul> 
                                 <li>Total number of modifications: 
-                                    <xsl:value-of select="count(//tei:del|//tei:add)" /> <!-- Counts all the add and del elements, and puts it in a list item -->
+                                    <xsl:value-of select="count(//tei:del|//tei:add)" />
                                 </li>
                                 <li>Number of additions: 
                                     <xsl:value-of select="count(//tei:add)" />

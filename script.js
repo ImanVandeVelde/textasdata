@@ -131,12 +131,11 @@ function documentLoader() {
 
 // write another function that will toggle the display of the deletions by clicking on a button
 function toggleDeletions() {
-  const deletions = document.querySelectorAll('del'); // Select all <del> elements
+  const deletions = document.querySelectorAll('del');
   deletions.forEach(del => {
-    del.style.display = del.style.display === 'inline' ? 'none' : 'inline'; // Toggle display
+    del.style.display = del.style.display === 'inline' ? 'none' : 'inline';
   });
 }
-
 
 // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
 
