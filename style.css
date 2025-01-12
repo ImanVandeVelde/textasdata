@@ -1,6 +1,5 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: medium;
+
 }
 
 .starter-template {
@@ -101,7 +100,6 @@ p {
   vertical-align: baseline ;
 }
 
-/*crossedout text in red*/
 .crossedout {
   color: red;
   text-decoration: line-through;

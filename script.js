@@ -93,11 +93,14 @@ function documentLoader() {
     });
   }
 
+  // Initial document load
   documentLoader();
   statsLoader();
+  // Event listener for sel1 change
   function selectHand(event) {
   var visible_mary = document.getElementsByClassName('#MWS');
   var visible_percy = document.getElementsByClassName('#PBS');
+  // Convert the HTMLCollection to an array for forEach compatibility
   var MaryArray = Array.from(visible_mary);
   var PercyArray = Array.from(visible_percy);
     if (event.target.value == 'both') {
@@ -126,6 +129,7 @@ function documentLoader() {
     }
   }
 
+// write another function that will toggle the display of the deletions by clicking on a button
 function toggleDeletions() {
   const deletions = document.querySelectorAll('del');
   deletions.forEach(del => {
@@ -184,5 +188,3 @@ let showReadingText = false;
     }
     showReadingText = !showReadingText;
   }
-
-  // can't seem to figure out how to make the toggle deletions and display reading modus go together
